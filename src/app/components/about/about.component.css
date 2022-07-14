@@ -4,7 +4,12 @@ div{
     margin: .5em;
 }
 
+@media (min-width:912) {
+    #Presentacion{
+        float: right;
 
+    }
+}
 h1{
    font-family:'Times New Roman', Times, serif;
    font-size: 4em;
