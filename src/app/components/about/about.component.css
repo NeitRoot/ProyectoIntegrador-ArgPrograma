@@ -1,0 +1,25 @@
+div{
+    align-items: center;
+    text-align: center;
+    margin: .5em;
+}
+
+
+h1{
+   font-family:'Times New Roman', Times, serif;
+   font-size: 4em;
+   color: white;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(107, 107, 0);
+}
+
+p{
+    font-family:monospace;
+    font-size: 1.5em;
+    color: white;
+}
+
+/*Codigo comentado por favor no te olvides mas como se hace*/
