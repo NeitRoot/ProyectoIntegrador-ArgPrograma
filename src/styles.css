@@ -7,3 +7,25 @@
 body{
     background-color: #B5E61D;
 }
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: white;
+ }
+ 
+ h3{
+     font-family:'Courier New', Courier, monospace;
+     color: rgb(107, 107, 0);
+ }
+ 
+ h2{
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+ p{
+     font-family:monospace;
+     font-size: 1.5em;
+     color: white;
+ }

@@ -1,0 +1,22 @@
+h1{
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+#items{
+    margin-left: 7em;
+    text-align: justify;
+}
+
+@media (max-width:757px){
+    h1{
+        margin-left: .5em;
+        margin-bottom: .5em;
+    }
+    
+    #items{
+        margin-left: 1em;
+        text-align: left;
+    }
+}
