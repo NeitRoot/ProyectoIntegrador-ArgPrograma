@@ -12,6 +12,8 @@ import { JobsComponent } from './components/jobs/jobs.component';
 import { EducationComponent } from './components/education/education.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HrdySftskillsComponent } from './components/hrdy-sftskills/hrdy-sftskills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { HrdySftskillsComponent } from './components/hrdy-sftskills/hrdy-sftskil
     AboutComponent,
     JobsComponent,
     EducationComponent,
-    HrdySftskillsComponent
+    HrdySftskillsComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
