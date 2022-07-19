@@ -12,29 +12,42 @@ body{
 }
 
 @media(min-width:499.5px){
-    #menu-pequeño{
+    .menu-pequeño{
         display: none;
     }
 }
 
-@media(max-width:500px){
-    #menu-pequeño{
+.nav-item{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.navbar-toggler{
+    margin-top: .5em;
+    margin-bottom: .5em;
+
+}
+
+@media (max-width:500px){
+    .menu-pequeño{
         display: flex;
         height: 1em;
         width: 1em;
         color: whitesmoke;
     }
+
     svg{
-        width: 3em;
+        width: 2em;
         fill: olivedrab;
         margin-right: 1em;
         margin-top: 1.5em;
     }
     .list{
-        width: 2em;
+        width: 1.5em;
         fill: whitesmoke;
         margin-right: 0em;
         margin-top: .2em;
+        flex-flow: row wrap;
     }
 
 }
@@ -44,3 +57,4 @@ body{
         display: none;
     }
 }
+
