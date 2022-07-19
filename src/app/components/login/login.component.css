@@ -1,0 +1,30 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background:  #B5E61D;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right,  #B5E61D,  #e6d21d);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right,  #B5E61D,  #e6d21d)
+    }
+
+
+h2{
+    margin-top: 2em;
+    font-size: 2em;
+
+}
+#form1{
+    margin-top: 3em;
+}
+
+.container{
+    display: block;
+    margin-top: 1em;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+}
