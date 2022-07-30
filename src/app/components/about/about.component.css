@@ -4,11 +4,15 @@ div{
     margin: .5em;
 }
 
+
+
+
 @media (min-width:912) {
     #Presentacion{
         float: right;
 
     }
+
 }
 h1{
    font-family:'Times New Roman', Times, serif;
@@ -26,5 +30,6 @@ p{
     font-size: 1.5em;
     color: white;
 }
+
 
 /*Codigo comentado por favor no te olvides mas como se hace*/

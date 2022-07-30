@@ -15,7 +15,7 @@ h2{
     font-size: 2em;
 
 }
-#form1{
+#nombreUsuario{
     margin-top: 3em;
 }
 
@@ -27,4 +27,10 @@ h2{
 
 a{
     text-decoration: none;
+}
+
+p{
+    display: block;
+    margin-top: 1em;
+    align-content: center;
 }

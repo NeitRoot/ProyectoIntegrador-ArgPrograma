@@ -1,0 +1,11 @@
+label{
+    font-size: 2em;
+    font-family: monospace;
+    color: olivedrab;
+}
+
+div{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+}

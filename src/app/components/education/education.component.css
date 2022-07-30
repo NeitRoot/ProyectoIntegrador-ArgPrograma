@@ -3,7 +3,13 @@ h1{
     margin-left: 1em;
     margin-bottom: 0.5em;
 }
-
+svg{
+    float: right;
+    width: 3em;
+    margin: .5em;
+    fill: whitesmoke;
+    cursor: pointer;
+}
 #items{
     margin-left: 7em;
     text-align: justify;
