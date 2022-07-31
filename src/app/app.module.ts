@@ -23,6 +23,9 @@ import { NewExperienciaComponent } from './components/jobs/new-experiencia.compo
 import { EditExperienciaComponent } from './components/jobs/edit-experiencia.component';
 import { NewEducacionComponent } from './components/education/new-educacion.component';
 import { EditEducacionComponent } from './components/education/edit-educacion.component';
+import { EditpersonaComponent } from './components/about/editpersona.component';
+import { NewhabilidadComponent } from './components/hrdy-sftskills/newhabilidad.component';
+import { EdithabilidadComponent } from './components/hrdy-sftskills/edithabilidad.component';
 
 
 @NgModule({
@@ -44,6 +47,9 @@ import { EditEducacionComponent } from './components/education/edit-educacion.co
     EditExperienciaComponent,
     NewEducacionComponent,
     EditEducacionComponent,
+    EditpersonaComponent,
+    NewhabilidadComponent,
+    EdithabilidadComponent,
   ],
   imports: [
     BrowserModule,

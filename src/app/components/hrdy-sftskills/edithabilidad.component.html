@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <form (submit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="nombreE">Habilidad</label>
+                    <input type="text" class="form-control" id="habilidad" name="habilidad" [(ngModel)]="skill.habilidad" required="">
+                </div>
+                <div class="form-group">
+                    <label for="img">Puedes colocar una imagen</label>
+                    <input type="file" class="form-control" id="img" name="img" [(ngModel)]="skill.img">
+                </div>
+                <div class="form-group">
+                    <label for="yearE">Cuán desarrolada está</label>
+                    <input type="text" class="form-control" id="valor" name="valor" [(ngModel)]="skill.valor">
+                <button class="btn btn-success">Modificar</button>
+                </div>
+            </form>
+        
+        </div>
+    </div>
+</div>
