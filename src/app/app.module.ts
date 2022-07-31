@@ -26,6 +26,8 @@ import { EditEducacionComponent } from './components/education/edit-educacion.co
 import { EditpersonaComponent } from './components/about/editpersona.component';
 import { NewhabilidadComponent } from './components/hrdy-sftskills/newhabilidad.component';
 import { EdithabilidadComponent } from './components/hrdy-sftskills/edithabilidad.component';
+import { NewproyectoComponent } from './components/projects/newproyecto.component';
+import { EditproyectoComponent } from './components/projects/editproyecto.component';
 
 
 @NgModule({
@@ -50,6 +52,8 @@ import { EdithabilidadComponent } from './components/hrdy-sftskills/edithabilida
     EditpersonaComponent,
     NewhabilidadComponent,
     EdithabilidadComponent,
+    NewproyectoComponent,
+    EditproyectoComponent,
   ],
   imports: [
     BrowserModule,

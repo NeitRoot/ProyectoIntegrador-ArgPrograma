@@ -9,6 +9,8 @@ import { NewhabilidadComponent } from './components/hrdy-sftskills/newhabilidad.
 import { EditExperienciaComponent } from './components/jobs/edit-experiencia.component';
 import { NewExperienciaComponent } from './components/jobs/new-experiencia.component';
 import { LoginComponent } from './components/login/login.component';
+import { EditproyectoComponent } from './components/projects/editproyecto.component';
+import { NewproyectoComponent } from './components/projects/newproyecto.component';
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
@@ -20,6 +22,8 @@ const routes: Routes = [
   {path:'editpersona/:id', component: EditpersonaComponent},
   {path:'newhabilidad', component: NewhabilidadComponent},
   {path:'edithabilidad/:id', component: EdithabilidadComponent},
+  {path:'newproyecto', component: NewproyectoComponent},
+  {path:'editproyecto/:id', component: EditproyectoComponent}
 ];
 
 @NgModule({
