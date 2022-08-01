@@ -8,7 +8,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'http://localhost:8080/personas/';
+  URL = 'https://froggodev.herokuapp.com/personas/';
 
 
   constructor(private http: HttpClient) { }
@@ -18,14 +18,14 @@ export class PersonaService {
   }
 
   public update(id: number, persona: persona): Observable<any>{
-    return this.http.put<any>(this.URL + `/personas/editar/${id}`, persona);
+    return this.http.put<any>(this.URL + `personas/editar/${id}`, persona);
   }
 
   public save(persona: persona):Observable<any>{
-    return this.http.post<any>(this.URL + '/personas/crear', persona);
+    return this.http.post<any>(this.URL + 'personas/crear', persona);
   }
 
   public detail(id: number):Observable<any>{
-    return this.http.get<persona>(this.URL + `/personas/detail/${id}`)
+    return this.http.get<persona>(this.URL + `personas/detail/${id}`)
   }
 }

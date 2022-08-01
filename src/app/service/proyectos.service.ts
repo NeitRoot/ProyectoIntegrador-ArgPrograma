@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProyectosService {
-  URL = 'http://localhost:8080/proyectos/';
+  URL = 'https://froggodev.herokuapp.com/proyectos/';
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Proyectos[]>{
